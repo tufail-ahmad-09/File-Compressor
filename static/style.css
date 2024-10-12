@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+}
+
+h1 {
+    color: #343a40; /* Darker color for the header */
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn {
+    border-radius: 25px; /* Rounded buttons */
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.btn-success {
+    background-color: #28a745; /* Success button color */
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker shade on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary button color */
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.form-control-file {
+    margin: 20px 0; /* Space around the file input */
+}
